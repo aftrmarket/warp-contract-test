@@ -26,7 +26,7 @@ async function readContract(contractId) {
             allowBigInt: true,
             internalWrites: true,
             unsafeClient: 'skip',
-            remoteStateSyncEnabled: true,
+            remoteStateSyncEnabled: true,  // WE HAVE TO TURN THIS OFF IN ORDER FOR THE CONTRACT TO EVALUATE CORRECTLY
             // remoteStateSyncSource: "https://dre-1.warp.cc/contract"
         })
     const result = await contract.readState();
