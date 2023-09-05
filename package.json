@@ -1,0 +1,37 @@
+{
+  "name": "warp-contract-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-interaction": "node -r dotenv/config ./scripts/test-interaction.js",
+    "read": "node ./scripts/read-contract.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftrmarket/aftr-work-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aftrmarket/aftr-work-contracts/issues"
+  },
+  "homepage": "https://github.com/aftrmarket/aftr-work-contracts#readme",
+  "dependencies": {
+    "arlocal": "^1.1.60",
+    "arweave": "^1.13.7",
+    "esbuild": "^0.17.19",
+    "esm": "^3.2.25",
+    "pg": "^8.11.3",
+    "warp-contracts": "^1.4.17",
+    "warp-contracts-plugin-deploy": "^1.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
