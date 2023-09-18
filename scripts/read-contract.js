@@ -26,11 +26,12 @@ async function readContract(contractId) {
             allowBigInt: true,
             internalWrites: true,
             unsafeClient: 'skip',
-            remoteStateSyncEnabled: true,  // WE HAVE TO TURN THIS OFF IN ORDER FOR THE CONTRACT TO EVALUATE CORRECTLY
+            // remoteStateSyncEnabled: true,  // WE HAVE TO TURN THIS OFF IN ORDER FOR THE CONTRACT TO EVALUATE CORRECTLY
             // remoteStateSyncSource: "https://dre-1.warp.cc/contract"
         })
     const result = await contract.readState();
     console.log(JSON.stringify(result));
+    console.log(`INTERACTIONS: ${Object.entries(result.cachedValue.validity).length}`);
     return result;
 }
 
@@ -46,8 +47,8 @@ function warpInit(env) {
          * But, if you run it without inMemore: true, then interactions are different.
          */
         // warp = WarpFactory.forMainnet().use(new DeployPlugin());  
-        // warp = WarpFactory.forMainnet({ ...defaultCacheOptions, inMemory: true }); // TOO SLOW FOR PRODUCT USE
-        warp = WarpFactory.forMainnet({ ...defaultCacheOptions});
+        warp = WarpFactory.forMainnet({ ...defaultCacheOptions, inMemory: true }); // TOO SLOW FOR PRODUCT USE
+        // warp = WarpFactory.forMainnet({ ...defaultCacheOptions});
     }
     return warp;
 }
@@ -55,9 +56,12 @@ function warpInit(env) {
 
 
 /*** BEGIN SCRIPT */
-const contractId = "6BZMY6p0Ub2lq-4ng6QwKLOvzyHd5ZrQwERSO-vNr6U";  
+const contractId = "1DktyGHrIaq7Uu_ZkMUQfC02ujICQ_YqBZerf0wrF0U";  
 const warp = warpInit(ENV);
 
 const result = await readContract(contractId);
+console.log("********* READ AFTER CALL");
+console.log(JSON.stringify(result));
 
 console.log(`INTERACTIONS: ${Object.entries(result.cachedValue.validity).length}`);
+console.log(`INTERACTIONS: ${JSON.stringify(result.cachedValue.validity)}`);

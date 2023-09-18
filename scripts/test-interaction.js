@@ -32,6 +32,8 @@ if (ENV === "TEST") {
     PLATFORM_WALLET = process.env.WALLET_DEV;
 }
 
+PLATFORM_WALLET = process.env.WALLET_DEV;
+
 const __dirname = path.resolve();
 const mine = () => arweave.api.get("mine");
 let wallet = JSON.parse(fs.readFileSync(path.join(__dirname, PLATFORM_WALLET)));
@@ -98,13 +100,13 @@ const contractId = "kXaBP8ecV0djbUkocQWvCc7G2fSF8LJxriZJwJmGI1I";  // Work Contr
 // const contractId = "KTzTXT_ANmF84fWEKHzWURD1LWd9QaFR9yfYUwH2Lxw";   // U Contract on Mainnet
 const warp = warpInit(ENV);
 
-let input = {
-    function: "mint",
-    qty: 100000000,
-    target: "STj1z-2f9PM1WKTiBKZ4vsRaCH_LBYChq8SAsdeUGjk"
-};
-const result = await runInteraction(contractId, input, wallet);
-console.log(`RESULT: ${JSON.stringify(result)}`);
+// let input = {
+//     function: "mint",
+//     qty: 100000000,
+//     target: "STj1z-2f9PM1WKTiBKZ4vsRaCH_LBYChq8SAsdeUGjk"
+// };
+// const result = await runInteraction(contractId, input, wallet);
+// console.log(`RESULT: ${JSON.stringify(result)}`);
 
 // let input = {
 //     function: "balance",
@@ -130,11 +132,23 @@ console.log(`RESULT: ${JSON.stringify(result)}`);
 // const result = await runInteraction(testContractId, input, wallet);
 // console.log(`RESULT: ${JSON.stringify(result)}`);
 
+const teamId = "E24CR-IIPM2FPQC_UjxTiiw6UV_DtYUhCTBReXwCRz4";
+const playContractId = "kXaBP8ecV0djbUkocQWvCc7G2fSF8LJxriZJwJmGI1I";
 
-// let input = {
-//     function: "allow",
-//     qty: 1,
-//     target: "VigdvLo8tdNjjFlK69lZ-uBIsvhEtNjR3GqsrkMl-f0"
-// };
-// const result = await runInteraction(contractId, input, wallet);
-// console.log(`RESULT: ${JSON.stringify(result)}`);
+let input = {
+    function: "allow",
+    qty: 1,
+    target: teamId
+};
+const txId = await runInteraction(playContractId, input, wallet);
+console.log(`RESULT: ${JSON.stringify(txId)}`);
+
+input = {
+    function: "deposit",
+    tokenId: playContractId,
+    qty: 1,
+    txID: txId
+};
+
+const result = await runInteraction(teamId, input, wallet);
+console.log(`RESULT: ${JSON.stringify(result)}`);

@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "test-interaction": "node -r dotenv/config ./scripts/test-interaction.js",
-    "read": "node ./scripts/read-contract.js"
+    "read": "node ./scripts/read-contract.js",
+    "test-view": "node ./scripts/test-viewContract.js",
+    "test-remote": "node ./scripts/test-remoteCall.js",
+    "test-purchase": "node ./scripts/test-purchase.js"
   },
   "repository": {
     "type": "git",

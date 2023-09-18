@@ -1,0 +1,50 @@
+{
+    "meta": {
+      "season": "2022"
+    },
+    "name": "Testy Tester",
+    "orgId": "CLEM",
+    "owner": "STj1z-2f9PM1WKTiBKZ4vsRaCH_LBYChq8SAsdeUGjk",
+    "price": 1000000,
+    "votes": [],
+    "claims": [],
+    "scores": [],
+    "status": "started",
+    "ticker": "TESTER-TESTY",
+    "tokens": [],
+    "balances": {
+      "STj1z-2f9PM1WKTiBKZ4vsRaCH_LBYChq8SAsdeUGjk": 1
+    },
+    "position": "wr",
+    "settings": [
+      [
+        "quorum",
+        0.5
+      ],
+      [
+        "support",
+        0.51
+      ],
+      [
+        "voteLength",
+        2160
+      ],
+      [
+        "communityLogo",
+        ""
+      ]
+    ],
+    "claimable": [],
+    "ownership": "single",
+    "protected": [
+      "protected",
+      "scores",
+      "purchaseLog",
+      "price"
+    ],
+    "purchaseLog": [],
+    "divisibility": 1000000,
+    "votingSystem": "weighted",
+    "beneficiaryId": "fWgJnk713WnrvP9zUR6Ybchf8qu1D5rZg05vrQfCdd4",
+    "priceIncrement": 10000
+  }

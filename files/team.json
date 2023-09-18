@@ -1,0 +1,70 @@
+{
+    "name": "Ugly Ducks",
+    "games": [],
+    "owner": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+    "votes": [],
+    "claims": [],
+    "status": "started",
+    "ticker": "UDUCKS",
+    "tokens": [],
+    "balances": {
+      "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU": 1
+    },
+    "settings": [
+      [
+        "quorum",
+        0.5
+      ],
+      [
+        "support",
+        0.51
+      ],
+      [
+        "voteLength",
+        2160
+      ],
+      [
+        "communityLogo",
+        ""
+      ]
+    ],
+    "claimable": [],
+    "ownership": "single",
+    "protected": [
+      "teamSetup",
+      "teamLimits",
+      "games"
+    ],
+    "teamSetup": {
+      "starters": [],
+      "bench": []
+    },
+    "teamLimits": [
+      {
+        "position": "qb",
+        "starterLimit": 1,
+        "positionLimit": 2
+      },
+      {
+        "position": "rb",
+        "starterLimit": 2,
+        "positionLimit": 4
+      },
+      {
+        "position": "wr",
+        "starterLimit": 3,
+        "positionLimit": 100
+      },
+      {
+        "position": "k",
+        "starterLimit": 1,
+        "positionLimit": 2
+      },
+      {
+        "position": "d",
+        "starterLimit": 1,
+        "positionLimit": 2
+      }
+    ],
+    "votingSystem": "weighted"
+  }
