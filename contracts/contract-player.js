@@ -458,8 +458,7 @@ async function handle(state, action) {
     balances[caller] += obj.qty;
     state.claimable.splice(index, 1);
     state.claims.push(txID);
-    //state.price += state.priceIncrement;
-    // Update with same price
+    state.price += state.priceIncrement;
     const updatePriceResult = await SmartWeave.contracts.write(PLAYER_REGISTRY_CONTRACT_ID, {
       function: "updatePlayerPrice",
       key: SmartWeave.contract.id,

@@ -92,7 +92,7 @@ async function runInteraction(contractId, input, wallet) {
     return result;
 }
 
-const CACHE = false;
+const CACHE = true;
 
 // let warp = warpInit(CACHE);
 // console.log("*** Creating player test contract...");
@@ -114,17 +114,23 @@ const CACHE = false;
 // console.log(`GAME CONTRACT: ${gameContractId}`);
 // console.log(`TEAM CONTRACT: ${teamContractId}`);
 
-const playerId = "fT561zunBM60fSFG4lJ54x8M18H2jC682xU9pVSHG54";
-const teamId = "H1doqUpcNYDcoQiWYcP4plGOzfWRbwObdY7cyNuh_Wc"
+// const playerId = "fT561zunBM60fSFG4lJ54x8M18H2jC682xU9pVSHG54";
+const playerId = "xtxuk4HLne_wBytn9RAbD_C-JGkumx5KQGU3i7i8F7M";
+const teamId = "H1doqUpcNYDcoQiWYcP4plGOzfWRbwObdY7cyNuh_Wc"; // Original team with the successful txs
+// const teamId = "BEtSpJVXChHkEyhjA1_SNZs9BwhAVD8S6WY6aWEdqrg";   // New team
 const currencyId = "kXaBP8ecV0djbUkocQWvCc7G2fSF8LJxriZJwJmGI1I";
 
 let input = {};
+
+// Get player price
+const playerReg = await readContract("ff_h3b1xdzDhqLaPKsmiWuhe012VzZmB40b1Cn9dBtk", true);
+const player = playerReg.cachedValue.state.register.find( (p) => p.id === playerId);
 
 console.log("*** TX1 Allow...");
 input = {
     function: "allow",
     target: playerId,
-    qty: 1000000,
+    qty: player.price,
 };
 const tx1 = await runInteraction(currencyId, input, wallet);
 console.log(`RESULT: ${JSON.stringify(tx1)}`);
@@ -135,7 +141,7 @@ input = {
     tokenId: currencyId,
     txID: tx1.originalTxId,
     target: teamId,
-    qty: 1000000,
+    qty: player.price,
 };
 const tx2 = await runInteraction(playerId, input, wallet);
 console.log(`RESULT: ${JSON.stringify(tx2)}`);
