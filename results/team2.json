@@ -1,0 +1,91 @@
+{
+    "sortKey": "000000000354,0000000000000,f1817c2e6e15590e4902c11037d717122be92945ec1c33b419a4f42fd0a9ea82",
+    "cachedValue": {
+      "state": {
+        "name": "Team2",
+        "games": [],
+        "owner": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+        "votes": [],
+        "claims": [],
+        "status": "started",
+        "ticker": "TEAM2",
+        "tokens": [],
+        "balances": {
+          "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU": 1
+        },
+        "settings": [
+          [
+            "quorum",
+            0.5
+          ],
+          [
+            "support",
+            0.51
+          ],
+          [
+            "voteLength",
+            2160
+          ],
+          [
+            "communityLogo",
+            ""
+          ]
+        ],
+        "claimable": [],
+        "ownership": "single",
+        "protected": [
+          "teamSetup",
+          "teamLimits",
+          "games"
+        ],
+        "teamSetup": {
+          "starters": [],
+          "bench": [
+            {
+              "id": "TUvsL8l5L_NkorudCMnuwetDEOlRZzH25ZyPOG9zDos",
+              "position": "wr",
+              "orgId": "BC"
+            }
+          ]
+        },
+        "teamLimits": [
+          {
+            "position": "qb",
+            "starterLimit": 1,
+            "positionLimit": 2
+          },
+          {
+            "position": "rb",
+            "starterLimit": 2,
+            "positionLimit": 4
+          },
+          {
+            "position": "wr",
+            "starterLimit": 3,
+            "positionLimit": 100
+          },
+          {
+            "position": "k",
+            "starterLimit": 1,
+            "positionLimit": 2
+          },
+          {
+            "position": "d",
+            "starterLimit": 1,
+            "positionLimit": 2
+          }
+        ],
+        "votingSystem": "weighted",
+        "test": {
+          "txID": "RCww_1hsxh17R1Z6QjmVcmdDebPKR1QEY_pNwBxt5vg",
+          "to": "T8Ih7fqSm-0y3YG4S6v2A9M3OSajX8EQSg_ZgaCk6yw",
+          "qty": 1
+        },
+        "reject": true
+      },
+      "validity": {
+        "sCu6yfvOeT9St5Fg2dOuZ54_lzPTRU5xDf5jtzV_XgU": true
+      },
+      "errorMessages": {}
+    }
+  }

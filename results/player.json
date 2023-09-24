@@ -1,0 +1,98 @@
+{
+    "sortKey": "000000000353,0000000000000,680f4313e3c888e165ef1b2004553926f6fc9d1afec0deb8fe2a5120fd00391f",
+    "cachedValue": {
+      "state": {
+        "meta": {
+          "season": "2022"
+        },
+        "name": "Zay Flowers",
+        "orgId": "BC",
+        "owner": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+        "price": 1000000,
+        "votes": [],
+        "claims": [
+          "Q7c6PZyWW5MHr-vGD1CZ8JjU6zBGW3OY3mWWxUyspWo"
+        ],
+        "scores": [],
+        "status": "started",
+        "ticker": "FLOWERS-ZAY",
+        "tokens": [
+          {
+            "txID": "WlFrSbVnSxjs-N5BULnXh_d4imVbP2zebqlUntt8UcU",
+            "tokenId": "cqYFMlPU8HLuyb-SJK20s4yM6OiX74ymhb8Zt1yq8us",
+            "source": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+            "balance": 1000000,
+            "start": 348,
+            "name": "Work",
+            "ticker": "WORK",
+            "logo": "iLPUUQvjA0jPH9VGjTsMkaxBbh_WnwRuqp6WhE_M3Ag",
+            "lockLength": 0,
+            "team": "YKuyZPNHLGKjH61d3VkXXFLOFQRaSy4-FpUOEL4IfN0"
+          },
+          {
+            "txID": "5sZE-ECHyQvuRj04oNlCyfuPtbfCtBmtuZijd7nYTh8",
+            "tokenId": "cqYFMlPU8HLuyb-SJK20s4yM6OiX74ymhb8Zt1yq8us",
+            "source": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+            "balance": 1000000,
+            "start": 352,
+            "name": "Work",
+            "ticker": "WORK",
+            "logo": "iLPUUQvjA0jPH9VGjTsMkaxBbh_WnwRuqp6WhE_M3Ag",
+            "lockLength": 0,
+            "team": "T8Ih7fqSm-0y3YG4S6v2A9M3OSajX8EQSg_ZgaCk6yw"
+          }
+        ],
+        "balances": {
+          "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU": 0,
+          "YKuyZPNHLGKjH61d3VkXXFLOFQRaSy4-FpUOEL4IfN0": 1
+        },
+        "position": "wr",
+        "settings": [
+          [
+            "quorum",
+            0.5
+          ],
+          [
+            "support",
+            0.51
+          ],
+          [
+            "voteLength",
+            2160
+          ],
+          [
+            "communityLogo",
+            ""
+          ]
+        ],
+        "claimable": [
+          {
+            "from": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+            "to": "T8Ih7fqSm-0y3YG4S6v2A9M3OSajX8EQSg_ZgaCk6yw",
+            "qty": 1,
+            "txID": "RCww_1hsxh17R1Z6QjmVcmdDebPKR1QEY_pNwBxt5vg"
+          }
+        ],
+        "ownership": "single",
+        "protected": [
+          "protected",
+          "scores",
+          "purchaseLog",
+          "price"
+        ],
+        "purchaseLog": [],
+        "divisibility": 1000000,
+        "votingSystem": "weighted",
+        "beneficiaryId": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+        "priceIncrement": 10000
+      },
+      "validity": {
+        "hp79nNkkMSw79WjIn-R_L2lcG5SH0plr3L_sLzhAl5M": true,
+        "Q7c6PZyWW5MHr-vGD1CZ8JjU6zBGW3OY3mWWxUyspWo": true,
+        "s0n0wW0rRPhVSoncvl9goZOy4sko1xHTmKHGmpN3W7M": true,
+        "-eWVIgKmlrgtFJs5o65jX7cl5X5_ZWIF8behxEI2Rcs": true,
+        "RCww_1hsxh17R1Z6QjmVcmdDebPKR1QEY_pNwBxt5vg": true
+      },
+      "errorMessages": {}
+    }
+  }

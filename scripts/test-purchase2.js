@@ -96,7 +96,7 @@ const CACHE = true;
 
 // let warp = warpInit(CACHE);
 // console.log("*** Creating player test contract...");
-// let contractSource = fs.readFileSync(path.join(__dirname, "/contracts/contract-player.js"), "utf8");
+// let contractSource = fs.readFileSync(path.join(__dirname, "/contracts/contract-player2.js"), "utf8");
 // let initState = fs.readFileSync(path.join(__dirname, "/files/player-test.json"), "utf8");
 // const playerContractId = await warpCreateNewContract(contractSource, initState, wallet);
 // await warp.close();
@@ -105,18 +105,18 @@ const CACHE = true;
 
 // let warp = warpInit(CACHE);
 // console.log("*** Creating team test contract...");
-// let contractSource = fs.readFileSync(path.join(__dirname, "/contracts/contract-team.js"), "utf8");
+// let contractSource = fs.readFileSync(path.join(__dirname, "/contracts/contract-team2.js"), "utf8");
 // const teamInitState = fs.readFileSync(path.join(__dirname, "/files/team.json"), "utf8");
 // // const teamContractId = await warpCreateContractFromTx("bgnZiBPx9QZK2cnRuLZ22s9w6UeiNWPQ_idgWIl3Nes", teamInitState, wallet);
 // const teamContractId = await warpCreateNewContract(contractSource, teamInitState, wallet);
 // await warp.close();
 
-// console.log(`GAME CONTRACT: ${gameContractId}`);
+// // console.log(`GAME CONTRACT: ${gameContractId}`);
 // console.log(`TEAM CONTRACT: ${teamContractId}`);
 
-// const playerId = "fT561zunBM60fSFG4lJ54x8M18H2jC682xU9pVSHG54";  // Original player contract
-const playerId = "xtxuk4HLne_wBytn9RAbD_C-JGkumx5KQGU3i7i8F7M"; // New player
-const teamId = "H1doqUpcNYDcoQiWYcP4plGOzfWRbwObdY7cyNuh_Wc"; // Original team with the successful txs
+const playerId = "-XNHbSZZzLilIrYrLGJ2bJIVIzSoQ3khFQLYvd_AZQU"; // New player
+const teamId = "Olg_uYp2yGIqPy9oOKM8ZcNkNRvSGHpnNxI7O1F0bBY"; // Team 1
+// const teamId = "uer1Feocp6rm82fsaDBrChXl16j2nN6DhHuDV57Ptc4" // Team 2
 // const teamId = "BEtSpJVXChHkEyhjA1_SNZs9BwhAVD8S6WY6aWEdqrg";   // New team
 const currencyId = "kXaBP8ecV0djbUkocQWvCc7G2fSF8LJxriZJwJmGI1I";
 
@@ -146,24 +146,46 @@ input = {
 const tx2 = await runInteraction(playerId, input, wallet);
 console.log(`RESULT: ${JSON.stringify(tx2)}`);
 
-
-console.log("*** TX3 Deposit to Team...");
-input = {
-    function: "deposit",
-    tokenId: playerId,
-    txID: tx2.originalTxId,
-    qty: 1,
-};
-const tx3 = await runInteraction(teamId, input, wallet);
-console.log(`RESULT: ${JSON.stringify(tx3)}`);
-
-
 // Read Team Contract with cache
-let result1 = await readContract(teamId, true);
+let result1 = await readContract(playerId, true);
 
 // Read Team without cache
-let result2 = await readContract(teamId, false);
+let result2 = await readContract(playerId, false);
 
 console.log(JSON.stringify(result1));
 console.log(JSON.stringify(result2));
+
+
+
+
+
+// console.log("*** TX3 Allow...");
+// input = {
+//     function: "allow",
+//     target: teamId,
+//     qty: 1,
+// };
+// const tx3 = await runInteraction(playerId, input, wallet);
+// console.log(`RESULT: ${JSON.stringify(tx3)}`);
+
+
+// console.log("*** TX4 Deposit to Team...");
+// input = {
+//     function: "deposit",
+//     tokenId: playerId,
+//     txID: tx3.originalTxId,
+//     qty: 1,
+// };
+// const tx4 = await runInteraction(teamId, input, wallet);
+// console.log(`RESULT: ${JSON.stringify(tx4)}`);
+
+
+// // Read Team Contract with cache
+// let result1 = await readContract(teamId, true);
+
+// // Read Team without cache
+// let result2 = await readContract(teamId, false);
+
+// console.log(JSON.stringify(result1));
+// console.log(JSON.stringify(result2));
 

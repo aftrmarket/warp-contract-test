@@ -4,7 +4,7 @@ import { DeployPlugin } from "warp-contracts-plugin-deploy";
 
 let arweave = {};
 
-const ENV = "PROD";
+const ENV = "DEV";
 
 if (ENV === "DEV") {
     arweave = Arweave.init({
@@ -56,7 +56,7 @@ function warpInit(env) {
 
 
 /*** BEGIN SCRIPT */
-const contractId = "1DktyGHrIaq7Uu_ZkMUQfC02ujICQ_YqBZerf0wrF0U";  
+const contractId = "kcoNv4pEnvA61njYjFriLcluTG7zREQLOjyudS1bmlw";  
 const warp = warpInit(ENV);
 
 const result = await readContract(contractId);

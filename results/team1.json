@@ -1,0 +1,102 @@
+{
+    "sortKey": "000000000350,0000000000000,ec62564059043254ba58035febabdb5f1619e29eccfb77f233929bba7ab4b2e1",
+    "cachedValue": {
+      "state": {
+        "name": "Team1",
+        "games": [],
+        "owner": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+        "votes": [],
+        "claims": [],
+        "status": "started",
+        "ticker": "TEAM1",
+        "tokens": [
+          {
+            "txID": "Q7c6PZyWW5MHr-vGD1CZ8JjU6zBGW3OY3mWWxUyspWo",
+            "tokenId": "TUvsL8l5L_NkorudCMnuwetDEOlRZzH25ZyPOG9zDos",
+            "source": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+            "balance": 1,
+            "start": 350,
+            "name": "Zay Flowers",
+            "ticker": "FLOWERS-ZAY",
+            "logo": "",
+            "lockLength": 0
+          }
+        ],
+        "balances": {
+          "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU": 1
+        },
+        "settings": [
+          [
+            "quorum",
+            0.5
+          ],
+          [
+            "support",
+            0.51
+          ],
+          [
+            "voteLength",
+            2160
+          ],
+          [
+            "communityLogo",
+            ""
+          ]
+        ],
+        "claimable": [],
+        "ownership": "single",
+        "protected": [
+          "teamSetup",
+          "teamLimits",
+          "games"
+        ],
+        "teamSetup": {
+          "starters": [],
+          "bench": [
+            {
+              "id": "TUvsL8l5L_NkorudCMnuwetDEOlRZzH25ZyPOG9zDos",
+              "position": "wr",
+              "orgId": "BC"
+            }
+          ]
+        },
+        "teamLimits": [
+          {
+            "position": "qb",
+            "starterLimit": 1,
+            "positionLimit": 2
+          },
+          {
+            "position": "rb",
+            "starterLimit": 2,
+            "positionLimit": 4
+          },
+          {
+            "position": "wr",
+            "starterLimit": 3,
+            "positionLimit": 100
+          },
+          {
+            "position": "k",
+            "starterLimit": 1,
+            "positionLimit": 2
+          },
+          {
+            "position": "d",
+            "starterLimit": 1,
+            "positionLimit": 2
+          }
+        ],
+        "votingSystem": "weighted",
+        "test": {
+          "txID": "Q7c6PZyWW5MHr-vGD1CZ8JjU6zBGW3OY3mWWxUyspWo",
+          "to": "YKuyZPNHLGKjH61d3VkXXFLOFQRaSy4-FpUOEL4IfN0",
+          "qty": 1
+        }
+      },
+      "validity": {
+        "s0n0wW0rRPhVSoncvl9goZOy4sko1xHTmKHGmpN3W7M": true
+      },
+      "errorMessages": {}
+    }
+  }
