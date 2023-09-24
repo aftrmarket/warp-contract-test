@@ -58,7 +58,7 @@ To easily see the issue, I added 2 objects to the state of the team contracts.  
 
 If you look at the state of Team 2, you'll see that state.test shows the claim that is sitting in the state.claimables[] object of the Player.
 
-```json
+```javascript
 // Team 2 state.test
 "test": {
     "txID": "RCww_1hsxh17R1Z6QjmVcmdDebPKR1QEY_pNwBxt5vg",
