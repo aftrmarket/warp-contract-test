@@ -8,5 +8,4 @@ keyfile*.json
 logs
 build
 cache
-playerReg*.json
 .env*

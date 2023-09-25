@@ -1,0 +1,3230 @@
+[
+  {
+    "name": "Alec Sinkfield",
+    "position": "rb",
+    "ticker": "SINKFIELD-ALEC",
+    "orgid": "BC"
+  },
+  {
+    "name": "Joey Luchetti",
+    "position": "te",
+    "ticker": "LUCHETTI-JOEY",
+    "orgid": "BC"
+  },
+  {
+    "name": "George Takacs",
+    "position": "te",
+    "ticker": "TAKACS-GEORGE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jaelen Gill",
+    "position": "wr",
+    "ticker": "GILL-JAELEN",
+    "orgid": "BC"
+  },
+  {
+    "name": "Phil Jurkovec",
+    "position": "qb",
+    "ticker": "JURKOVEC-PHIL",
+    "orgid": "BC"
+  },
+  {
+    "name": "Daelen Menard",
+    "position": "qb",
+    "ticker": "MENARD-DAELEN",
+    "orgid": "BC"
+  },
+  {
+    "name": "Dino Tomlin",
+    "position": "wr",
+    "ticker": "TOMLIN-DINO",
+    "orgid": "BC"
+  },
+  {
+    "name": "Zay Flowers",
+    "position": "wr",
+    "ticker": "FLOWERS-ZAY",
+    "orgid": "BC"
+  },
+  {
+    "name": "Pat Garwo III",
+    "position": "rb",
+    "ticker": "GARWO-PAT",
+    "orgid": "BC"
+  },
+  {
+    "name": "Taji Johnson",
+    "position": "wr",
+    "ticker": "JOHNSON-TAJI",
+    "orgid": "BC"
+  },
+  {
+    "name": "Charlie Gordinier",
+    "position": "te",
+    "ticker": "GORDINIER-CHARLIE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Tony Muse",
+    "position": "wr",
+    "ticker": "MUSE-TONY",
+    "orgid": "BC"
+  },
+  {
+    "name": "Hans Lillis",
+    "position": "te",
+    "ticker": "LILLIS-HANS",
+    "orgid": "BC"
+  },
+  {
+    "name": "Spencer Witter",
+    "position": "te",
+    "ticker": "WITTER-SPENCER",
+    "orgid": "BC"
+  },
+  {
+    "name": "Andrew Landry",
+    "position": "te",
+    "ticker": "LANDRY-ANDREW",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jack Brandon",
+    "position": "qb",
+    "ticker": "BRANDON-JACK",
+    "orgid": "BC"
+  },
+  {
+    "name": "Matthew Rueve",
+    "position": "qb",
+    "ticker": "RUEVE-MATTHEW",
+    "orgid": "BC"
+  },
+  {
+    "name": "Lewis Bond",
+    "position": "wr",
+    "ticker": "BOND-LEWIS",
+    "orgid": "BC"
+  },
+  {
+    "name": "Dante Reynolds",
+    "position": "wr",
+    "ticker": "REYNOLDS-DANTE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Xavier Coleman",
+    "position": "rb",
+    "ticker": "COLEMAN-XAVIER",
+    "orgid": "BC"
+  },
+  {
+    "name": "Emmett Morehead",
+    "position": "qb",
+    "ticker": "MOREHEAD-EMMETT",
+    "orgid": "BC"
+  },
+  {
+    "name": "Andre Hines",
+    "position": "rb",
+    "ticker": "HINES-ANDRE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Peter Delaportas",
+    "position": "qb",
+    "ticker": "DELAPORTAS-PETER",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jackson Treister",
+    "position": "rb",
+    "ticker": "TREISTER-JACKSON",
+    "orgid": "BC"
+  },
+  {
+    "name": "Tommy Birmingham",
+    "position": "te",
+    "ticker": "BIRMINGHAM-TOMMY",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jacob Kraft",
+    "position": "wr",
+    "ticker": "KRAFT-JACOB",
+    "orgid": "BC"
+  },
+  {
+    "name": "Matt Ragan",
+    "position": "te",
+    "ticker": "RAGAN-MATT",
+    "orgid": "BC"
+  },
+  {
+    "name": "Joseph Griffin Jr.",
+    "position": "wr",
+    "ticker": "GRIFFIN-JOSEPH",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jaden Williams",
+    "position": "wr",
+    "ticker": "WILLIAMS-JADEN",
+    "orgid": "BC"
+  },
+  {
+    "name": "Jeremiah Franklin",
+    "position": "te",
+    "ticker": "FRANKLIN-JEREMIAH",
+    "orgid": "BC"
+  },
+  {
+    "name": "Alex Broome",
+    "position": "rb",
+    "ticker": "BROOME-ALEX",
+    "orgid": "BC"
+  },
+  {
+    "name": "Cam Barfield",
+    "position": "rb",
+    "ticker": "BARFIELD-CAM",
+    "orgid": "BC"
+  },
+  {
+    "name": "Luke McLaughlin",
+    "position": "wr",
+    "ticker": "MCLAUGHLIN-LUKE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Shane Hanafin",
+    "position": "qb",
+    "ticker": "HANAFIN-SHANE",
+    "orgid": "BC"
+  },
+  {
+    "name": "Nick Nicotra",
+    "position": "wr",
+    "ticker": "NICOTRA-NICK",
+    "orgid": "BC"
+  },
+  {
+    "name": "Ismael Zamor",
+    "position": "wr",
+    "ticker": "ZAMOR-ISMAEL",
+    "orgid": "BC"
+  },
+  {
+    "name": "Hunter Johnson",
+    "position": "qb",
+    "ticker": "JOHNSON-HUNTER",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Luke Price",
+    "position": "te",
+    "ticker": "PRICE-LUKE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Drew Swinney",
+    "position": "wr",
+    "ticker": "SWINNEY-DREW",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Joseph Ngata",
+    "position": "wr",
+    "ticker": "NGATA-JOSEPH",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Davis Allen",
+    "position": "te",
+    "ticker": "ALLEN-DAVIS",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "DJ Uiagalelei",
+    "position": "qb",
+    "ticker": "UIAGALELEI-DJ",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Brannon Spector",
+    "position": "wr",
+    "ticker": "SPECTOR-BRANNON",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Sage Ennis",
+    "position": "te",
+    "ticker": "ENNIS-SAGE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Jake Briningstool",
+    "position": "te",
+    "ticker": "BRININGSTOOL-JAKE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Dacari Collins",
+    "position": "wr",
+    "ticker": "COLLINS-DACARI",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Beaux Collins",
+    "position": "wr",
+    "ticker": "COLLINS-BEAUX",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Will Shipley",
+    "position": "rb",
+    "ticker": "SHIPLEY-WILL",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Phil Mafah",
+    "position": "rb",
+    "ticker": "MAFAH-PHIL",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Hampton Earle",
+    "position": "wr",
+    "ticker": "EARLE-HAMPTON",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Tye Herbstreit",
+    "position": "wr",
+    "ticker": "HERBSTREIT-TYE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Hamp Greene",
+    "position": "wr",
+    "ticker": "GREENE-HAMP",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Troy Stellato",
+    "position": "wr",
+    "ticker": "STELLATO-TROY",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Billy Wiles",
+    "position": "qb",
+    "ticker": "WILES-BILLY",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Banks Pope",
+    "position": "te",
+    "ticker": "POPE-BANKS",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Cade Klubnik",
+    "position": "qb",
+    "ticker": "KLUBNIK-CADE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Adam Randall",
+    "position": "wr",
+    "ticker": "RANDALL-ADAM",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "E.J. Williams",
+    "position": "wr",
+    "ticker": "WILLIAMS-E.J.",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Kobe Pace",
+    "position": "rb",
+    "ticker": "PACE-KOBE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Hunter Helms",
+    "position": "qb",
+    "ticker": "HELMS-HUNTER",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Will Blackston",
+    "position": "te",
+    "ticker": "BLACKSTON-WILL",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Blackmon Huckabee Jr.",
+    "position": "wr",
+    "ticker": "HUCKABEE-BLACKMON",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Will Taylor",
+    "position": "wr",
+    "ticker": "TAYLOR-WILL",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Kevin McNeal",
+    "position": "rb",
+    "ticker": "MCNEAL-KEVIN",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Jackson Crosby",
+    "position": "wr",
+    "ticker": "CROSBY-JACKSON",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Zach Jackson",
+    "position": "wr",
+    "ticker": "JACKSON-ZACH",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Tristen Rigby",
+    "position": "rb",
+    "ticker": "RIGBY-TRISTEN",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Wise Segars Jr.",
+    "position": "rb",
+    "ticker": "SEGARS-WISE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Josh Sapp",
+    "position": "te",
+    "ticker": "SAPP-JOSH",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Cole Turner",
+    "position": "wr",
+    "ticker": "TURNER-COLE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Antonio Williams",
+    "position": "wr",
+    "ticker": "WILLIAMS-ANTONIO",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Trent Pearman",
+    "position": "qb",
+    "ticker": "PEARMAN-TRENT",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Keith Adams Jr.",
+    "position": "rb",
+    "ticker": "ADAMS-KEITH",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Domonique Thomas",
+    "position": "rb",
+    "ticker": "THOMAS-DOMONIQUE",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Griffin Batt",
+    "position": "te",
+    "ticker": "BATT-GRIFFIN",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Michael Mankaka",
+    "position": "wr",
+    "ticker": "MANKAKA-MICHAEL",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Clay Swinney",
+    "position": "wr",
+    "ticker": "SWINNEY-CLAY",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Davian Sullivan",
+    "position": "wr",
+    "ticker": "SULLIVAN-DAVIAN",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "Jake Taylor",
+    "position": "te",
+    "ticker": "TAYLOR-JAKE",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Eric Gallman II",
+    "position": "wr",
+    "ticker": "GALLMAN-ERIC",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Ty Lenhart",
+    "position": "qb",
+    "ticker": "LENHART-TY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "RaShawn Allen",
+    "position": "rb",
+    "ticker": "ALLEN-RASHAWN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Joe Hardison",
+    "position": "wr",
+    "ticker": "HARDISON-JOE",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Mason Russell",
+    "position": "te",
+    "ticker": "RUSSELL-MASON",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jordan Waters",
+    "position": "rb",
+    "ticker": "WATERS-JORDAN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jalon Calhoun",
+    "position": "wr",
+    "ticker": "CALHOUN-JALON",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Nicky Dalmolin",
+    "position": "te",
+    "ticker": "DALMOLIN-NICKY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Luca Diamont",
+    "position": "wr",
+    "ticker": "DIAMONT-LUCA",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Darrell Harding Jr.",
+    "position": "wr",
+    "ticker": "HARDING-DARRELL",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Eli Pancol",
+    "position": "wr",
+    "ticker": "PANCOL-ELI",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jontavis Robertson",
+    "position": "wr",
+    "ticker": "ROBERTSON-JONTAVIS",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Cole Finney",
+    "position": "te",
+    "ticker": "FINNEY-COLE",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Gavin Spurrier",
+    "position": "qb",
+    "ticker": "SPURRIER-GAVIN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jaylen Coleman",
+    "position": "rb",
+    "ticker": "COLEMAN-JAYLEN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Matt Smith",
+    "position": "te",
+    "ticker": "SMITH-MATT",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Trevor Horton",
+    "position": "wr",
+    "ticker": "HORTON-TREVOR",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jordan Moore",
+    "position": "qb",
+    "ticker": "MOORE-JORDAN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Andrew Jones",
+    "position": "te",
+    "ticker": "JONES-ANDREW",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Sahmir Hagans",
+    "position": "wr",
+    "ticker": "HAGANS-SAHMIR",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Riley Leonard",
+    "position": "qb",
+    "ticker": "LEONARD-RILEY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Henry Belin IV",
+    "position": "qb",
+    "ticker": "BELIN-HENRY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Malik Bowen-Sims",
+    "position": "wr",
+    "ticker": "BOWEN-SIMS-MALIK",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Edwin Barnes III",
+    "position": "wr",
+    "ticker": "BARNES-EDWIN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "William Robertson",
+    "position": "wr",
+    "ticker": "ROBERTSON-WILLIAM",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Grissim Anderson",
+    "position": "rb",
+    "ticker": "ANDERSON-GRISSIM",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Mehki Wall",
+    "position": "wr",
+    "ticker": "WALL-MEHKI",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jaquez Moore",
+    "position": "rb",
+    "ticker": "MOORE-JAQUEZ",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Eric Weatherly",
+    "position": "rb",
+    "ticker": "WEATHERLY-ERIC",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Travis Bates",
+    "position": "rb",
+    "ticker": "BATES-TRAVIS",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Terry Moore",
+    "position": "rb",
+    "ticker": "MOORE-TERRY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Nick Lampert",
+    "position": "wr",
+    "ticker": "LAMPERT-NICK",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Jaden Watkins",
+    "position": "wr",
+    "ticker": "WATKINS-JADEN",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Cade Anders",
+    "position": "te",
+    "ticker": "ANDERS-CADE",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Harrison Wellmann",
+    "position": "wr",
+    "ticker": "WELLMANN-HARRISON",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Henry Belvin IV",
+    "position": "qb",
+    "ticker": "BELVIN-HENRY",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "Ontaria Wilson",
+    "position": "wr",
+    "ticker": "WILSON-ONTARIA",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Jordan Travis",
+    "position": "qb",
+    "ticker": "TRAVIS-JORDAN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Wyatt Rector",
+    "position": "te",
+    "ticker": "RECTOR-WYATT",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Keyshawn Helton",
+    "position": "wr",
+    "ticker": "HELTON-KEYSHAWN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Camren McDonald",
+    "position": "te",
+    "ticker": "MCDONALD-CAMREN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Mike Roussos",
+    "position": "wr",
+    "ticker": "ROUSSOS-MIKE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Mycah Pittman",
+    "position": "wr",
+    "ticker": "PITTMAN-MYCAH",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Treshaun Ward",
+    "position": "rb",
+    "ticker": "WARD-TRESHAUN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Lawrance Toafili",
+    "position": "rb",
+    "ticker": "TOAFILI-LAWRANCE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Trey Benson",
+    "position": "rb",
+    "ticker": "BENSON-TREY",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Kentron Poitier",
+    "position": "wr",
+    "ticker": "POITIER-KENTRON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Ja'Khi Douglas",
+    "position": "wr",
+    "ticker": "DOUGLAS-JA'KHI",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Caziah Holmes",
+    "position": "rb",
+    "ticker": "HOLMES-CAZIAH",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Jackson West",
+    "position": "te",
+    "ticker": "WEST-JACKSON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Joshua Burrell",
+    "position": "wr",
+    "ticker": "BURRELL-JOSHUA",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Tate Rodemaker",
+    "position": "qb",
+    "ticker": "RODEMAKER-TATE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Darion Williamson",
+    "position": "wr",
+    "ticker": "WILLIAMSON-DARION",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Winston Wright Jr.",
+    "position": "wr",
+    "ticker": "WRIGHT-WINSTON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Gino English",
+    "position": "qb",
+    "ticker": "ENGLISH-GINO",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Markeston Douglas",
+    "position": "te",
+    "ticker": "DOUGLAS-MARKESTON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Malik McClain",
+    "position": "wr",
+    "ticker": "MCCLAIN-MALIK",
+    "orgid": "FSU"
+  },
+  {
+    "name": "A.J. Duffy",
+    "position": "qb",
+    "ticker": "DUFFY-A.J.",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Rodney Hill",
+    "position": "rb",
+    "ticker": "HILL-RODNEY",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Johnny Wilson",
+    "position": "wr",
+    "ticker": "WILSON-JOHNNY",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Fernando Padron",
+    "position": "wr",
+    "ticker": "PADRON-FERNANDO",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Preston Daniel",
+    "position": "te",
+    "ticker": "DANIEL-PRESTON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "DJ Daniels",
+    "position": "te",
+    "ticker": "DANIELS-DJ",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Deuce Spann",
+    "position": "wr",
+    "ticker": "SPANN-DEUCE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Brian Courtney",
+    "position": "te",
+    "ticker": "COURTNEY-BRIAN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Jerrale Powers",
+    "position": "te",
+    "ticker": "POWERS-JERRALE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "CJ Campbell",
+    "position": "rb",
+    "ticker": "CAMPBELL-CJ",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Vance Nicklaus",
+    "position": "te",
+    "ticker": "NICKLAUS-VANCE",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Dylan McNamara",
+    "position": "qb",
+    "ticker": "MCNAMARA-DYLAN",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Jeremiah Giedrys",
+    "position": "wr",
+    "ticker": "GIEDRYS-JEREMIAH",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Jimmy Casey",
+    "position": "te",
+    "ticker": "CASEY-JIMMY",
+    "orgid": "FSU"
+  },
+  {
+    "name": "Carson Pielock",
+    "position": "wr",
+    "ticker": "PIELOCK-CARSON",
+    "orgid": "FSU"
+  },
+  {
+    "name": "E.J. Jenkins",
+    "position": "wr",
+    "ticker": "JENKINS-E.J.",
+    "orgid": "GT"
+  },
+  {
+    "name": "Malachi Carter",
+    "position": "wr",
+    "ticker": "CARTER-MALACHI",
+    "orgid": "GT"
+  },
+  {
+    "name": "Peje' Harris",
+    "position": "te",
+    "ticker": "HARRIS-PEJE'",
+    "orgid": "GT"
+  },
+  {
+    "name": "Dontae Smith",
+    "position": "rb",
+    "ticker": "SMITH-DONTAE",
+    "orgid": "GT"
+  },
+  {
+    "name": "Hassan Hall",
+    "position": "rb",
+    "ticker": "HALL-HASSAN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Dylan McDuffie",
+    "position": "rb",
+    "ticker": "MCDUFFIE-DYLAN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Taisun Phommachanh",
+    "position": "qb",
+    "ticker": "PHOMMACHANH-TAISUN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Luke Benson",
+    "position": "te",
+    "ticker": "BENSON-LUKE",
+    "orgid": "GT"
+  },
+  {
+    "name": "Kalani Norris",
+    "position": "wr",
+    "ticker": "NORRIS-KALANI",
+    "orgid": "GT"
+  },
+  {
+    "name": "Jeff Sims",
+    "position": "qb",
+    "ticker": "SIMS-JEFF",
+    "orgid": "GT"
+  },
+  {
+    "name": "Billy Ward",
+    "position": "te",
+    "ticker": "WARD-BILLY",
+    "orgid": "GT"
+  },
+  {
+    "name": "Bryce Gowdy",
+    "position": "wr",
+    "ticker": "GOWDY-BRYCE",
+    "orgid": "GT"
+  },
+  {
+    "name": "James BlackStrain",
+    "position": "wr",
+    "ticker": "BLACKSTRAIN-JAMES",
+    "orgid": "GT"
+  },
+  {
+    "name": "Nate McCollum",
+    "position": "wr",
+    "ticker": "MCCOLLUM-NATE",
+    "orgid": "GT"
+  },
+  {
+    "name": "Chris Miller",
+    "position": "te",
+    "ticker": "MILLER-CHRIS",
+    "orgid": "GT"
+  },
+  {
+    "name": "Ben Wilhelm",
+    "position": "te",
+    "ticker": "WILHELM-BEN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Zach Gibson",
+    "position": "qb",
+    "ticker": "GIBSON-ZACH",
+    "orgid": "GT"
+  },
+  {
+    "name": "Dylan Leonard",
+    "position": "te",
+    "ticker": "LEONARD-DYLAN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Avery Boyd",
+    "position": "wr",
+    "ticker": "BOYD-AVERY",
+    "orgid": "GT"
+  },
+  {
+    "name": "Malik Rutherford",
+    "position": "wr",
+    "ticker": "RUTHERFORD-MALIK",
+    "orgid": "GT"
+  },
+  {
+    "name": "Jamal Haynes",
+    "position": "wr",
+    "ticker": "HAYNES-JAMAL",
+    "orgid": "GT"
+  },
+  {
+    "name": "Ben Postma",
+    "position": "te",
+    "ticker": "POSTMA-BEN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Leo Blackburn",
+    "position": "wr",
+    "ticker": "BLACKBURN-LEO",
+    "orgid": "GT"
+  },
+  {
+    "name": "Ryan King",
+    "position": "wr",
+    "ticker": "KING-RYAN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Jamie Felix",
+    "position": "rb",
+    "ticker": "FELIX-JAMIE",
+    "orgid": "GT"
+  },
+  {
+    "name": "Antonio Martin",
+    "position": "rb",
+    "ticker": "MARTIN-ANTONIO",
+    "orgid": "GT"
+  },
+  {
+    "name": "Anthony Minella",
+    "position": "te",
+    "ticker": "MINELLA-ANTHONY",
+    "orgid": "GT"
+  },
+  {
+    "name": "Colin Hemingway",
+    "position": "rb",
+    "ticker": "HEMINGWAY-COLIN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Juju Lewis",
+    "position": "wr",
+    "ticker": "LEWIS-JUJU",
+    "orgid": "GT"
+  },
+  {
+    "name": "Zach Pyron",
+    "position": "qb",
+    "ticker": "PYRON-ZACH",
+    "orgid": "GT"
+  },
+  {
+    "name": "Stone Bonner",
+    "position": "te",
+    "ticker": "BONNER-STONE",
+    "orgid": "GT"
+  },
+  {
+    "name": "D.J. Moore",
+    "position": "wr",
+    "ticker": "MOORE-D.J.",
+    "orgid": "GT"
+  },
+  {
+    "name": "Trent Davis",
+    "position": "wr",
+    "ticker": "DAVIS-TRENT",
+    "orgid": "GT"
+  },
+  {
+    "name": "Daylon Gordon",
+    "position": "rb",
+    "ticker": "GORDON-DAYLON",
+    "orgid": "GT"
+  },
+  {
+    "name": "Englan Williams",
+    "position": "rb",
+    "ticker": "WILLIAMS-ENGLAN",
+    "orgid": "GT"
+  },
+  {
+    "name": "Alexander Parker",
+    "position": "wr",
+    "ticker": "PARKER-ALEXANDER",
+    "orgid": "GT"
+  },
+  {
+    "name": "Josh Sexton",
+    "position": "wr",
+    "ticker": "SEXTON-JOSH",
+    "orgid": "GT"
+  },
+  {
+    "name": "Malik Cunningham",
+    "position": "qb",
+    "ticker": "CUNNINGHAM-MALIK",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Josh Johnson",
+    "position": "wr",
+    "ticker": "JOHNSON-JOSH",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Jaelin Carter",
+    "position": "wr",
+    "ticker": "CARTER-JAELIN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Isaac Martin",
+    "position": "te",
+    "ticker": "MARTIN-ISAAC",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Dee Wiggins",
+    "position": "wr",
+    "ticker": "WIGGINS-DEE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Marshon Ford",
+    "position": "te",
+    "ticker": "FORD-MARSHON",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Elijah Downing",
+    "position": "wr",
+    "ticker": "DOWNING-ELIJAH",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Jalen Mitchell",
+    "position": "rb",
+    "ticker": "MITCHELL-JALEN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Evan Conley",
+    "position": "qb",
+    "ticker": "CONLEY-EVAN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Tyler Hudson",
+    "position": "wr",
+    "ticker": "HUDSON-TYLER",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Jawhar Jordan",
+    "position": "rb",
+    "ticker": "JORDAN-JAWHAR",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Dez Melton",
+    "position": "te",
+    "ticker": "MELTON-DEZ",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Duane Martin",
+    "position": "te",
+    "ticker": "MARTIN-DUANE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Ahmari Huggins-Bruce",
+    "position": "wr",
+    "ticker": "HUGGINS-BRUCE-AHMARI",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Brock Domann",
+    "position": "qb",
+    "ticker": "DOMANN-BROCK",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Josh Lifson",
+    "position": "te",
+    "ticker": "LIFSON-JOSH",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Francis Sherman",
+    "position": "te",
+    "ticker": "SHERMAN-FRANCIS",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Trevion Cooley",
+    "position": "rb",
+    "ticker": "COOLEY-TREVION",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Victor Mullen",
+    "position": "te",
+    "ticker": "MULLEN-VICTOR",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Devaughn Mortimer",
+    "position": "wr",
+    "ticker": "MORTIMER-DEVAUGHN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Braden Smith",
+    "position": "wr",
+    "ticker": "SMITH-BRADEN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Jatavian Churchill",
+    "position": "wr",
+    "ticker": "CHURCHILL-JATAVIAN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Khalib Johnson",
+    "position": "qb",
+    "ticker": "JOHNSON-KHALIB",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Nate Kurisky",
+    "position": "te",
+    "ticker": "KURISKY-NATE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Maurice Turner",
+    "position": "rb",
+    "ticker": "TURNER-MAURICE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Chance Morrow",
+    "position": "wr",
+    "ticker": "MORROW-CHANCE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Chris Bell",
+    "position": "wr",
+    "ticker": "BELL-CHRIS",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Tiyon Evans",
+    "position": "rb",
+    "ticker": "EVANS-TIYON",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Nathan McElroy",
+    "position": "qb",
+    "ticker": "MCELROY-NATHAN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Christian Henry",
+    "position": "wr",
+    "ticker": "HENRY-CHRISTIAN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Bradley West",
+    "position": "wr",
+    "ticker": "WEST-BRADLEY",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Grant Goodman",
+    "position": "rb",
+    "ticker": "GOODMAN-GRANT",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Austin Holland",
+    "position": "wr",
+    "ticker": "HOLLAND-AUSTIN",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Gage Reale",
+    "position": "te",
+    "ticker": "REALE-GAGE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Sam Young",
+    "position": "qb",
+    "ticker": "YOUNG-SAM",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Sam Vaulton",
+    "position": "qb",
+    "ticker": "VAULTON-SAM",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Gerald Hanson",
+    "position": "wr",
+    "ticker": "HANSON-GERALD",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Tre Moore",
+    "position": "wr",
+    "ticker": "MOORE-TRE",
+    "orgid": "LOU"
+  },
+  {
+    "name": "Lucious Stanley",
+    "position": "rb",
+    "ticker": "STANLEY-LUCIOUS",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Devon Perry",
+    "position": "wr",
+    "ticker": "PERRY-DEVON",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Will Mallory",
+    "position": "te",
+    "ticker": "MALLORY-WILL",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Frank Ladson Jr.",
+    "position": "wr",
+    "ticker": "LADSON-FRANK",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Peyton Matocha",
+    "position": "qb",
+    "ticker": "MATOCHA-PEYTON",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jaylan Knighton",
+    "position": "rb",
+    "ticker": "KNIGHTON-JAYLAN",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Dominic Mammarelli",
+    "position": "te",
+    "ticker": "MAMMARELLI-DOMINIC",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Romello Brinson",
+    "position": "wr",
+    "ticker": "BRINSON-ROMELLO",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Henry Parrish Jr.",
+    "position": "rb",
+    "ticker": "PARRISH-HENRY",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Xavier Restrepo",
+    "position": "wr",
+    "ticker": "RESTREPO-XAVIER",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Kahlil Brantley",
+    "position": "te",
+    "ticker": "BRANTLEY-KAHLIL",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Thaddius Franklin Jr.",
+    "position": "rb",
+    "ticker": "FRANKLIN-THADDIUS",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jake Garcia",
+    "position": "qb",
+    "ticker": "GARCIA-JAKE",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jayden George",
+    "position": "qb",
+    "ticker": "GEORGE-JAYDEN",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jacolby George",
+    "position": "wr",
+    "ticker": "GEORGE-JACOLBY",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Robert Prosek",
+    "position": "te",
+    "ticker": "PROSEK-ROBERT",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jefferson Walls",
+    "position": "wr",
+    "ticker": "WALLS-JEFFERSON",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Isaiah Cashwell",
+    "position": "rb",
+    "ticker": "CASHWELL-ISAIAH",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Brashard Smith",
+    "position": "wr",
+    "ticker": "SMITH-BRASHARD",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Key'Shawn Smith",
+    "position": "wr",
+    "ticker": "SMITH-KEY'SHAWN",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Elijah Arroyo",
+    "position": "te",
+    "ticker": "ARROYO-ELIJAH",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Donald Chaney Jr.",
+    "position": "rb",
+    "ticker": "CHANEY-DONALD",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Tyler Van Dyke",
+    "position": "qb",
+    "ticker": "VAN-TYLER",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Michael Redding III",
+    "position": "wr",
+    "ticker": "REDDING-MICHAEL",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jacurri Brown",
+    "position": "qb",
+    "ticker": "BROWN-JACURRI",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "TreVonte' Citizen",
+    "position": "rb",
+    "ticker": "CITIZEN-TREVONTE'",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Isaiah Horton",
+    "position": "wr",
+    "ticker": "HORTON-ISAIAH",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Jaleel Skinner",
+    "position": "te",
+    "ticker": "SKINNER-JALEEL",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Josh Murillo",
+    "position": "wr",
+    "ticker": "MURILLO-JOSH",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Colbie Young",
+    "position": "wr",
+    "ticker": "YOUNG-COLBIE",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Terrell Walden II",
+    "position": "rb",
+    "ticker": "WALDEN-TERRELL",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Mike Peraino",
+    "position": "rb",
+    "ticker": "PERAINO-MIKE",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Seth Parrott",
+    "position": "te",
+    "ticker": "PARROTT-SETH",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Zaire Cox",
+    "position": "wr",
+    "ticker": "COX-ZAIRE",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Bryson Robertson",
+    "position": "wr",
+    "ticker": "ROBERTSON-BRYSON",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "Thayer Thomas",
+    "position": "wr",
+    "ticker": "THOMAS-THAYER",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jack Chambers",
+    "position": "qb",
+    "ticker": "CHAMBERS-JACK",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Devin Leary",
+    "position": "qb",
+    "ticker": "LEARY-DEVIN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Trent Pennix",
+    "position": "te",
+    "ticker": "PENNIX-TRENT",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jasiah Provillon",
+    "position": "wr",
+    "ticker": "PROVILLON-JASIAH",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Devin Carter",
+    "position": "wr",
+    "ticker": "CARTER-DEVIN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Michael Fox",
+    "position": "wr",
+    "ticker": "FOX-MICHAEL",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Darryl Jones",
+    "position": "wr",
+    "ticker": "JONES-DARRYL",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Keyon Lesane",
+    "position": "wr",
+    "ticker": "LESANE-KEYON",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Delbert Mimms III",
+    "position": "rb",
+    "ticker": "MIMMS-DELBERT",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Josh Crabtree",
+    "position": "wr",
+    "ticker": "CRABTREE-JOSH",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Christopher Toudle",
+    "position": "wr",
+    "ticker": "TOUDLE-CHRISTOPHER",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Porter Rooks",
+    "position": "wr",
+    "ticker": "ROOKS-PORTER",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Ezemdi Udoh",
+    "position": "te",
+    "ticker": "UDOH-EZEMDI",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jalen Coit",
+    "position": "wr",
+    "ticker": "COIT-JALEN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Ben Finley",
+    "position": "qb",
+    "ticker": "FINLEY-BEN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Micah Crowell",
+    "position": "rb",
+    "ticker": "CROWELL-MICAH",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jordan Houston",
+    "position": "rb",
+    "ticker": "HOUSTON-JORDAN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Demarcus Jones II",
+    "position": "rb",
+    "ticker": "JONES-DEMARCUS",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Kameron Walker",
+    "position": "te",
+    "ticker": "WALKER-KAMERON",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jackson DeSilva",
+    "position": "wr",
+    "ticker": "DESILVA-JACKSON",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Jakolbe Baldwin",
+    "position": "wr",
+    "ticker": "BALDWIN-JAKOLBE",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Demie Sumo-Karngbaye",
+    "position": "rb",
+    "ticker": "SUMO-KARNGBAYE-DEMIE",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Julian Gray",
+    "position": "wr",
+    "ticker": "GRAY-JULIAN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Ced Seabrough",
+    "position": "te",
+    "ticker": "SEABROUGH-CED",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Fred Seabrough Jr.",
+    "position": "te",
+    "ticker": "SEABROUGH-FRED",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Yates Johnson",
+    "position": "te",
+    "ticker": "JOHNSON-YATES",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Dillon Mosley",
+    "position": "wr",
+    "ticker": "MOSLEY-DILLON",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Anthony Smith",
+    "position": "wr",
+    "ticker": "SMITH-ANTHONY",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Michael Allen",
+    "position": "rb",
+    "ticker": "ALLEN-MICHAEL",
+    "orgid": "NCST"
+  },
+  {
+    "name": "MJ Morris",
+    "position": "qb",
+    "ticker": "MORRIS-MJ",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Zo Wallace",
+    "position": "qb",
+    "ticker": "WALLACE-ZO",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Terrell Timmons Jr.",
+    "position": "wr",
+    "ticker": "TIMMONS-TERRELL",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Devin Gardner",
+    "position": "rb",
+    "ticker": "GARDNER-DEVIN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Ashton Locklear",
+    "position": "wr",
+    "ticker": "LOCKLEAR-ASHTON",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Ethan Rhodes",
+    "position": "qb",
+    "ticker": "RHODES-ETHAN",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Reid Mitchell",
+    "position": "te",
+    "ticker": "MITCHELL-REID",
+    "orgid": "NCST"
+  },
+  {
+    "name": "Antoine Green",
+    "position": "wr",
+    "ticker": "GREEN-ANTOINE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "British Brooks",
+    "position": "rb",
+    "ticker": "BROOKS-BRITISH",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Kamari Morales",
+    "position": "te",
+    "ticker": "MORALES-KAMARI",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Justin Olson",
+    "position": "wr",
+    "ticker": "OLSON-JUSTIN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Jacolby Criswell",
+    "position": "qb",
+    "ticker": "CRISWELL-JACOLBY",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Tylee Craft",
+    "position": "wr",
+    "ticker": "CRAFT-TYLEE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Jefferson Boaz",
+    "position": "qb",
+    "ticker": "BOAZ-JEFFERSON",
+    "orgid": "UNC"
+  },
+  {
+    "name": "John Copenhaver",
+    "position": "te",
+    "ticker": "COPENHAVER-JOHN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Drake Maye",
+    "position": "qb",
+    "ticker": "MAYE-DRAKE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Kobe Paysour",
+    "position": "wr",
+    "ticker": "PAYSOUR-KOBE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Kendall Karr",
+    "position": "te",
+    "ticker": "KARR-KENDALL",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Gavin Blackwell",
+    "position": "wr",
+    "ticker": "BLACKWELL-GAVIN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Will Crowley",
+    "position": "te",
+    "ticker": "CROWLEY-WILL",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Jeffrey Saturday",
+    "position": "wr",
+    "ticker": "SATURDAY-JEFFREY",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Caleb Hood",
+    "position": "rb",
+    "ticker": "HOOD-CALEB",
+    "orgid": "UNC"
+  },
+  {
+    "name": "J.J. Jones",
+    "position": "wr",
+    "ticker": "JONES-J.J.",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Bryson Nesbit",
+    "position": "te",
+    "ticker": "NESBIT-BRYSON",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Tychaun Chapman",
+    "position": "wr",
+    "ticker": "CHAPMAN-TYCHAUN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Andre Greene Jr.",
+    "position": "wr",
+    "ticker": "GREENE-ANDRE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Omarion Hampton",
+    "position": "rb",
+    "ticker": "HAMPTON-OMARION",
+    "orgid": "UNC"
+  },
+  {
+    "name": "George Pettaway",
+    "position": "rb",
+    "ticker": "PETTAWAY-GEORGE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Josh Downs",
+    "position": "wr",
+    "ticker": "DOWNS-JOSH",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Elijah Green",
+    "position": "rb",
+    "ticker": "GREEN-ELIJAH",
+    "orgid": "UNC"
+  },
+  {
+    "name": "D.J. Jones",
+    "position": "rb",
+    "ticker": "JONES-D.J.",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Landon Stevens",
+    "position": "wr",
+    "ticker": "STEVENS-LANDON",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Russell Tabor",
+    "position": "qb",
+    "ticker": "TABOR-RUSSELL",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Conner Harrell",
+    "position": "qb",
+    "ticker": "HARRELL-CONNER",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Brooks Miller",
+    "position": "wr",
+    "ticker": "MILLER-BROOKS",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Cyrus Rogers",
+    "position": "wr",
+    "ticker": "ROGERS-CYRUS",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Thomas Flynn",
+    "position": "wr",
+    "ticker": "FLYNN-THOMAS",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Grady Sherrill",
+    "position": "wr",
+    "ticker": "SHERRILL-GRADY",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Kellan Hood",
+    "position": "wr",
+    "ticker": "HOOD-KELLAN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Michael Hall",
+    "position": "wr",
+    "ticker": "HALL-MICHAEL",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Aiden Cloninger",
+    "position": "wr",
+    "ticker": "CLONINGER-AIDEN",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Jake Young",
+    "position": "te",
+    "ticker": "YOUNG-JAKE",
+    "orgid": "UNC"
+  },
+  {
+    "name": "Derek Kyler",
+    "position": "qb",
+    "ticker": "KYLER-DEREK",
+    "orgid": "PITT"
+  },
+  {
+    "name": "C'Bo Flemister",
+    "position": "rb",
+    "ticker": "FLEMISTER-C'BO",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Nick Patti",
+    "position": "qb",
+    "ticker": "PATTI-NICK",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Bub Means",
+    "position": "wr",
+    "ticker": "MEANS-BUB",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Kedon Slovis",
+    "position": "qb",
+    "ticker": "SLOVIS-KEDON",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Kyi Wright",
+    "position": "te",
+    "ticker": "WRIGHT-KYI",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Israel Abanikanda",
+    "position": "rb",
+    "ticker": "ABANIKANDA-ISRAEL",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jaylon Barden",
+    "position": "wr",
+    "ticker": "BARDEN-JAYLON",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Dylan Deveney",
+    "position": "te",
+    "ticker": "DEVENEY-DYLAN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Karter Johnson",
+    "position": "te",
+    "ticker": "JOHNSON-KARTER",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jared Wayne",
+    "position": "wr",
+    "ticker": "WAYNE-JARED",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Rodney Hammond Jr.",
+    "position": "rb",
+    "ticker": "HAMMOND-RODNEY",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Daniel Carter",
+    "position": "rb",
+    "ticker": "CARTER-DANIEL",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Vincent Davis",
+    "position": "rb",
+    "ticker": "DAVIS-VINCENT",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Eli Kosanovich",
+    "position": "qb",
+    "ticker": "KOSANOVICH-ELI",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Gavin Thomson",
+    "position": "wr",
+    "ticker": "THOMSON-GAVIN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Josh Junko",
+    "position": "wr",
+    "ticker": "JUNKO-JOSH",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Isaiah Stewart",
+    "position": "wr",
+    "ticker": "STEWART-ISAIAH",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Anthony Summey",
+    "position": "rb",
+    "ticker": "SUMMEY-ANTHONY",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jaden Bradley",
+    "position": "wr",
+    "ticker": "BRADLEY-JADEN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Myles Alston",
+    "position": "wr",
+    "ticker": "ALSTON-MYLES",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Nate Yarnell",
+    "position": "qb",
+    "ticker": "YARNELL-NATE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jake Renda",
+    "position": "te",
+    "ticker": "RENDA-JAKE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jake McConnachie",
+    "position": "wr",
+    "ticker": "MCCONNACHIE-JAKE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Angelo Priore",
+    "position": "rb",
+    "ticker": "PRIORE-ANGELO",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Addison Copeland III",
+    "position": "wr",
+    "ticker": "COPELAND-ADDISON",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Gavin Bartholomew",
+    "position": "te",
+    "ticker": "BARTHOLOMEW-GAVIN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Konata Mumpfield",
+    "position": "wr",
+    "ticker": "MUMPFIELD-KONATA",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Che Nwabuko",
+    "position": "wr",
+    "ticker": "NWABUKO-CHE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Jake Frantl",
+    "position": "qb",
+    "ticker": "FRANTL-JAKE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Cole Mitchell",
+    "position": "te",
+    "ticker": "MITCHELL-COLE",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Peter Vardzel",
+    "position": "wr",
+    "ticker": "VARDZEL-PETER",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Taelen Brooks",
+    "position": "rb",
+    "ticker": "BROOKS-TAELEN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Justin Cullins",
+    "position": "rb",
+    "ticker": "CULLINS-JUSTIN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Trevor Faulkner",
+    "position": "te",
+    "ticker": "FAULKNER-TREVOR",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Caden Smith",
+    "position": "wr",
+    "ticker": "SMITH-CADEN",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Isaiah Nesmith",
+    "position": "wr",
+    "ticker": "NESMITH-ISAIAH",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Josh Altsman",
+    "position": "te",
+    "ticker": "ALTSMAN-JOSH",
+    "orgid": "PITT"
+  },
+  {
+    "name": "Devaughn Cooper",
+    "position": "wr",
+    "ticker": "COOPER-DEVAUGHN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "CJ Hayes",
+    "position": "wr",
+    "ticker": "HAYES-CJ",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Anthony Queeley",
+    "position": "wr",
+    "ticker": "QUEELEY-ANTHONY",
+    "orgid": "SYR"
+  },
+  {
+    "name": "D'Marcus Adams",
+    "position": "wr",
+    "ticker": "ADAMS-D'MARCUS",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Garrett Shrader",
+    "position": "qb",
+    "ticker": "SHRADER-GARRETT",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Juwaun Price",
+    "position": "rb",
+    "ticker": "PRICE-JUWAUN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Sean Tucker",
+    "position": "rb",
+    "ticker": "TUCKER-SEAN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Steven Mahar Jr.",
+    "position": "te",
+    "ticker": "MAHAR-STEVEN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Luke MacPhail",
+    "position": "qb",
+    "ticker": "MACPHAIL-LUKE",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Carlos Del Rio-Wilson",
+    "position": "qb",
+    "ticker": "DEL-CARLOS",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Courtney Jackson",
+    "position": "wr",
+    "ticker": "JACKSON-COURTNEY",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Nate Wellington",
+    "position": "wr",
+    "ticker": "WELLINGTON-NATE",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Sam Warren",
+    "position": "wr",
+    "ticker": "WARREN-SAM",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Trebor Pena",
+    "position": "wr",
+    "ticker": "PENA-TREBOR",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Oronde Gadsden II",
+    "position": "wr",
+    "ticker": "GADSDEN-ORONDE",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Damien Alford",
+    "position": "wr",
+    "ticker": "ALFORD-DAMIEN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Maximilian Mang",
+    "position": "te",
+    "ticker": "MANG-MAXIMILIAN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Dan Villari",
+    "position": "qb",
+    "ticker": "VILLARI-DAN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "JaCobian Morgan",
+    "position": "qb",
+    "ticker": "MORGAN-JACOBIAN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Kendall Long",
+    "position": "wr",
+    "ticker": "LONG-KENDALL",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Justin Lamson",
+    "position": "qb",
+    "ticker": "LAMSON-JUSTIN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Isaiah Jones",
+    "position": "wr",
+    "ticker": "JONES-ISAIAH",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Umari Hatcher",
+    "position": "wr",
+    "ticker": "HATCHER-UMARI",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Dom Foster",
+    "position": "wr",
+    "ticker": "FOSTER-DOM",
+    "orgid": "SYR"
+  },
+  {
+    "name": "David Obeng-Agyapong",
+    "position": "rb",
+    "ticker": "OBENG-AGYAPONG-DAVID",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Donovan Brown",
+    "position": "wr",
+    "ticker": "BROWN-DONOVAN",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Mario Escobar",
+    "position": "rb",
+    "ticker": "ESCOBAR-MARIO",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Joe Pinjuh",
+    "position": "rb",
+    "ticker": "PINJUH-JOE",
+    "orgid": "SYR"
+  },
+  {
+    "name": "LeQuint Allen",
+    "position": "rb",
+    "ticker": "ALLEN-LEQUINT",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Kyle Acker",
+    "position": "wr",
+    "ticker": "ACKER-KYLE",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Carter Clark",
+    "position": "te",
+    "ticker": "CLARK-CARTER",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Josh Kubala",
+    "position": "te",
+    "ticker": "KUBALA-JOSH",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Joshua Escobar",
+    "position": "rb",
+    "ticker": "ESCOBAR-JOSHUA",
+    "orgid": "SYR"
+  },
+  {
+    "name": "Keytaon Thompson",
+    "position": "wr",
+    "ticker": "THOMPSON-KEYTAON",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Ronnie Walker Jr.",
+    "position": "rb",
+    "ticker": "WALKER-RONNIE",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Brennan Armstrong",
+    "position": "qb",
+    "ticker": "ARMSTRONG-BRENNAN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Jaylon Baker",
+    "position": "wr",
+    "ticker": "BAKER-JAYLON",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Josh Clifford",
+    "position": "wr",
+    "ticker": "CLIFFORD-JOSH",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Perris Jones",
+    "position": "rb",
+    "ticker": "JONES-PERRIS",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Billy Kemp IV",
+    "position": "wr",
+    "ticker": "KEMP-BILLY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Grant Misch",
+    "position": "te",
+    "ticker": "MISCH-GRANT",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Nathaniel Beal III",
+    "position": "wr",
+    "ticker": "BEAL-NATHANIEL",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Mike Hollins",
+    "position": "rb",
+    "ticker": "HOLLINS-MIKE",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Luke Wentz",
+    "position": "wr",
+    "ticker": "WENTZ-LUKE",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Dontayvion Wicks",
+    "position": "wr",
+    "ticker": "WICKS-DONTAYVION",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Devin Chandler",
+    "position": "wr",
+    "ticker": "CHANDLER-DEVIN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Lavel Davis Jr.",
+    "position": "wr",
+    "ticker": "DAVIS-LAVEL",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Joshua Rawlings",
+    "position": "te",
+    "ticker": "RAWLINGS-JOSHUA",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Mike Kosar",
+    "position": "te",
+    "ticker": "KOSAR-MIKE",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Sean Moore",
+    "position": "wr",
+    "ticker": "MOORE-SEAN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Jared Rayman",
+    "position": "qb",
+    "ticker": "RAYMAN-JARED",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Amaad Foston",
+    "position": "rb",
+    "ticker": "FOSTON-AMAAD",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Jay Woolfolk",
+    "position": "qb",
+    "ticker": "WOOLFOLK-JAY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Demick Starling",
+    "position": "wr",
+    "ticker": "STARLING-DEMICK",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Malachi Fields",
+    "position": "wr",
+    "ticker": "FIELDS-MALACHI",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Sackett Wood Jr.",
+    "position": "te",
+    "ticker": "WOOD-SACKETT",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Dakota Twitty",
+    "position": "wr",
+    "ticker": "TWITTY-DAKOTA",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Jack Witmer",
+    "position": "te",
+    "ticker": "WITMER-JACK",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Karson Gay",
+    "position": "te",
+    "ticker": "GAY-KARSON",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Davis Lane Jr.",
+    "position": "qb",
+    "ticker": "LANE-DAVIS",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Xavier Brown",
+    "position": "rb",
+    "ticker": "BROWN-XAVIER",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Cody Brown",
+    "position": "rb",
+    "ticker": "BROWN-CODY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Ethan Davies",
+    "position": "wr",
+    "ticker": "DAVIES-ETHAN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Henry Duke",
+    "position": "te",
+    "ticker": "DUKE-HENRY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Dillon Tennyson",
+    "position": "wr",
+    "ticker": "TENNYSON-DILLON",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Sean Wilson",
+    "position": "wr",
+    "ticker": "WILSON-SEAN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Delaney Crawford",
+    "position": "qb",
+    "ticker": "CRAWFORD-DELANEY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Mark Wagner II",
+    "position": "qb",
+    "ticker": "WAGNER-MARK",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Grady Brosterhous",
+    "position": "qb",
+    "ticker": "BROSTERHOUS-GRADY",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Landon Spell",
+    "position": "qb",
+    "ticker": "SPELL-LANDON",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Devin Sherwood",
+    "position": "qb",
+    "ticker": "SHERWOOD-DEVIN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Jack Griese",
+    "position": "rb",
+    "ticker": "GRIESE-JACK",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Logan Kotter",
+    "position": "rb",
+    "ticker": "KOTTER-LOGAN",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Eli Wood",
+    "position": "wr",
+    "ticker": "WOOD-ELI",
+    "orgid": "UVA"
+  },
+  {
+    "name": "Connor Blumrick",
+    "position": "te",
+    "ticker": "BLUMRICK-CONNOR",
+    "orgid": "VT"
+  },
+  {
+    "name": "Jason Brown",
+    "position": "qb",
+    "ticker": "BROWN-JASON",
+    "orgid": "VT"
+  },
+  {
+    "name": "Jadan Blue",
+    "position": "wr",
+    "ticker": "BLUE-JADAN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Drake De Iuliis",
+    "position": "te",
+    "ticker": "DE-DRAKE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Jalen Holston",
+    "position": "rb",
+    "ticker": "HOLSTON-JALEN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Cole Beck",
+    "position": "wr",
+    "ticker": "BECK-COLE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Kaleb Smith",
+    "position": "wr",
+    "ticker": "SMITH-KALEB",
+    "orgid": "VT"
+  },
+  {
+    "name": "Tink Boyd",
+    "position": "wr",
+    "ticker": "BOYD-TINK",
+    "orgid": "VT"
+  },
+  {
+    "name": "Keshawn King",
+    "position": "rb",
+    "ticker": "KING-KESHAWN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Grant Wells",
+    "position": "qb",
+    "ticker": "WELLS-GRANT",
+    "orgid": "VT"
+  },
+  {
+    "name": "Stephen Gosnell",
+    "position": "wr",
+    "ticker": "GOSNELL-STEPHEN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Luke Bussel",
+    "position": "wr",
+    "ticker": "BUSSEL-LUKE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Ty Eller",
+    "position": "te",
+    "ticker": "ELLER-TY",
+    "orgid": "VT"
+  },
+  {
+    "name": "William Kakavitsas",
+    "position": "wr",
+    "ticker": "KAKAVITSAS-WILLIAM",
+    "orgid": "VT"
+  },
+  {
+    "name": "Nick Gallo",
+    "position": "te",
+    "ticker": "GALLO-NICK",
+    "orgid": "VT"
+  },
+  {
+    "name": "Dallan Wright",
+    "position": "wr",
+    "ticker": "WRIGHT-DALLAN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Da'Wain Lofton",
+    "position": "wr",
+    "ticker": "LOFTON-DA'WAIN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Jaylen Jones",
+    "position": "wr",
+    "ticker": "JONES-JAYLEN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Chance Black",
+    "position": "rb",
+    "ticker": "BLACK-CHANCE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Tahj Bullock",
+    "position": "qb",
+    "ticker": "BULLOCK-TAHJ",
+    "orgid": "VT"
+  },
+  {
+    "name": "Benji Gosnell",
+    "position": "te",
+    "ticker": "GOSNELL-BENJI",
+    "orgid": "VT"
+  },
+  {
+    "name": "Malachi Thomas",
+    "position": "rb",
+    "ticker": "THOMAS-MALACHI",
+    "orgid": "VT"
+  },
+  {
+    "name": "Kenji Christian",
+    "position": "rb",
+    "ticker": "CHRISTIAN-KENJI",
+    "orgid": "VT"
+  },
+  {
+    "name": "Christian Moss",
+    "position": "wr",
+    "ticker": "MOSS-CHRISTIAN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Devin Farrell",
+    "position": "qb",
+    "ticker": "FARRELL-DEVIN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Harrison Saint Germain",
+    "position": "te",
+    "ticker": "SAINT-HARRISON",
+    "orgid": "VT"
+  },
+  {
+    "name": "Bryce Duke",
+    "position": "rb",
+    "ticker": "DUKE-BRYCE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Dae'Quan Wright",
+    "position": "te",
+    "ticker": "WRIGHT-DAE'QUAN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Tucker Holloway",
+    "position": "wr",
+    "ticker": "HOLLOWAY-TUCKER",
+    "orgid": "VT"
+  },
+  {
+    "name": "Cole Pickett",
+    "position": "te",
+    "ticker": "PICKETT-COLE",
+    "orgid": "VT"
+  },
+  {
+    "name": "P.J. Prioleau",
+    "position": "wr",
+    "ticker": "PRIOLEAU-P.J.",
+    "orgid": "VT"
+  },
+  {
+    "name": "Ben Locklear",
+    "position": "qb",
+    "ticker": "LOCKLEAR-BEN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Xayvion Turner-Bradshaw",
+    "position": "wr",
+    "ticker": "TURNER-BRADSHAW-XAYVION",
+    "orgid": "VT"
+  },
+  {
+    "name": "Areeb Rashid",
+    "position": "wr",
+    "ticker": "RASHID-AREEB",
+    "orgid": "VT"
+  },
+  {
+    "name": "Latrell Sutton",
+    "position": "wr",
+    "ticker": "SUTTON-LATRELL",
+    "orgid": "VT"
+  },
+  {
+    "name": "Devin Ferrell",
+    "position": "qb",
+    "ticker": "FERRELL-DEVIN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Sam Hughes",
+    "position": "wr",
+    "ticker": "HUGHES-SAM",
+    "orgid": "VT"
+  },
+  {
+    "name": "Ayden Burkey",
+    "position": "wr",
+    "ticker": "BURKEY-AYDEN",
+    "orgid": "VT"
+  },
+  {
+    "name": "Cole Reemsnyder",
+    "position": "te",
+    "ticker": "REEMSNYDER-COLE",
+    "orgid": "VT"
+  },
+  {
+    "name": "Jaeger Bull",
+    "position": "te",
+    "ticker": "BULL-JAEGER",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Sam Hartman",
+    "position": "qb",
+    "ticker": "HARTMAN-SAM",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Blake Whiteheart",
+    "position": "te",
+    "ticker": "WHITEHEART-BLAKE",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "A.T. Perry",
+    "position": "wr",
+    "ticker": "PERRY-A.T.",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Christian Turner",
+    "position": "rb",
+    "ticker": "TURNER-CHRISTIAN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Quinton Cooley",
+    "position": "rb",
+    "ticker": "COOLEY-QUINTON",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Justice Ellison",
+    "position": "rb",
+    "ticker": "ELLISON-JUSTICE",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Michael Frogge",
+    "position": "te",
+    "ticker": "FROGGE-MICHAEL",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Mitch Griffis",
+    "position": "qb",
+    "ticker": "GRIFFIS-MITCH",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Michael Kern",
+    "position": "qb",
+    "ticker": "KERN-MICHAEL",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Donavon Greene",
+    "position": "wr",
+    "ticker": "GREENE-DONAVON",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Cameron Hite",
+    "position": "te",
+    "ticker": "HITE-CAMERON",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Taylor Morin",
+    "position": "wr",
+    "ticker": "MORIN-TAYLOR",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Andy Elkins Jr.",
+    "position": "wr",
+    "ticker": "ELKINS-ANDY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Jarrett Brown",
+    "position": "wr",
+    "ticker": "BROWN-JARRETT",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Ke'Shawn Williams",
+    "position": "wr",
+    "ticker": "WILLIAMS-KE'SHAWN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Jahmal Banks",
+    "position": "wr",
+    "ticker": "BANKS-JAHMAL",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Trey Boll",
+    "position": "te",
+    "ticker": "BOLL-TREY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Jackson Hensley",
+    "position": "wr",
+    "ticker": "HENSLEY-JACKSON",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Will Towns",
+    "position": "rb",
+    "ticker": "TOWNS-WILL",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Christian Greene",
+    "position": "wr",
+    "ticker": "GREENE-CHRISTIAN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Dez Williams",
+    "position": "wr",
+    "ticker": "WILLIAMS-DEZ",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Gavin Ellis",
+    "position": "te",
+    "ticker": "ELLIS-GAVIN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Horatio Fields",
+    "position": "wr",
+    "ticker": "FIELDS-HORATIO",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Brett Griffis",
+    "position": "qb",
+    "ticker": "GRIFFIS-BRETT",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Jaydn Girard",
+    "position": "wr",
+    "ticker": "GIRARD-JAYDN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Demond Claiborne",
+    "position": "rb",
+    "ticker": "CLAIBORNE-DEMOND",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Tate Carney",
+    "position": "rb",
+    "ticker": "CARNEY-TATE",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Zach Igwebe",
+    "position": "rb",
+    "ticker": "IGWEBE-ZACH",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Nick Ragano",
+    "position": "wr",
+    "ticker": "RAGANO-NICK",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Walker Ferguson",
+    "position": "wr",
+    "ticker": "FERGUSON-WALKER",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Ryan Dupont",
+    "position": "te",
+    "ticker": "DUPONT-RYAN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Troy Hoilman",
+    "position": "qb",
+    "ticker": "HOILMAN-TROY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Wesley Grimes",
+    "position": "wr",
+    "ticker": "GRIMES-WESLEY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Harry Lodge",
+    "position": "te",
+    "ticker": "LODGE-HARRY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Ian Ver Steeg",
+    "position": "wr",
+    "ticker": "VER-IAN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "AK Kelly",
+    "position": "wr",
+    "ticker": "KELLY-AK",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Mason Andrade",
+    "position": "rb",
+    "ticker": "ANDRADE-MASON",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Kevin Check",
+    "position": "te",
+    "ticker": "CHECK-KEVIN",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "Wesley Strobel",
+    "position": "wr",
+    "ticker": "STROBEL-WESLEY",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "GT D",
+    "position": "d",
+    "ticker": "GT-D",
+    "orgid": "GT"
+  },
+  {
+    "name": "CLEM D",
+    "position": "d",
+    "ticker": "CLEM-D",
+    "orgid": "CLEM"
+  },
+  {
+    "name": "DUKE D",
+    "position": "d",
+    "ticker": "DUKE-D",
+    "orgid": "DUKE"
+  },
+  {
+    "name": "UVA D",
+    "position": "d",
+    "ticker": "UVA-D",
+    "orgid": "UVA"
+  },
+  {
+    "name": "WAKE D",
+    "position": "d",
+    "ticker": "WAKE-D",
+    "orgid": "WAKE"
+  },
+  {
+    "name": "PITT D",
+    "position": "d",
+    "ticker": "PITT-D",
+    "orgid": "PITT"
+  },
+  {
+    "name": "UNC D",
+    "position": "d",
+    "ticker": "UNC-D",
+    "orgid": "UNC"
+  },
+  {
+    "name": "VT D",
+    "position": "d",
+    "ticker": "VT-D",
+    "orgid": "VT"
+  },
+  {
+    "name": "FSU D",
+    "position": "d",
+    "ticker": "FSU-D",
+    "orgid": "FSU"
+  },
+  {
+    "name": "BC D",
+    "position": "d",
+    "ticker": "BC-D",
+    "orgid": "BC"
+  },
+  {
+    "name": "SYR D",
+    "position": "d",
+    "ticker": "SYR-D",
+    "orgid": "SYR"
+  },
+  {
+    "name": "MIAMI D",
+    "position": "d",
+    "ticker": "MIAMI-D",
+    "orgid": "MIAMI"
+  },
+  {
+    "name": "LOU D",
+    "position": "d",
+    "ticker": "LOU-D",
+    "orgid": "LOU"
+  },
+  {
+    "name": "NCST D",
+    "position": "d",
+    "ticker": "NCST-D",
+    "orgid": "NCST"
+  }
+]
