@@ -5,12 +5,14 @@ import { arweaveInit, warpCreateNewContract, warpCreateContractFromTx, warpRead,
 
 jest.setTimeout(30000);
 
-describe.skip('Testing Join Game Process', () => {
+describe('Testing Purchase Player Process', () => {
     const env = "DEV";  // "DEV" | "TEST" | "PROD"
     const arweave = arweaveInit(env);
     const __dirname = path.resolve();
     const mine = () => arweave.api.get("mine");
     let arlocal = {};
+    let cache = true;
+    let withoutRejects = true;     // Do not use 'rejects' -> set to true
 
     let wallet = {};
     let walletAddr = "";
@@ -23,12 +25,14 @@ describe.skip('Testing Join Game Process', () => {
         gameSourceId: ""
     };
 
-    let teamId1 = "";
-    let teamId2 = "";
-    let gameId = "";
+    let teams = [];
     let purchasePlayerId = "";
     let contractRead1 = "";
-    let contractRead2 = "";
+    let contractRead10 = "";
+    let contractRead1NoCache = "";
+    let contractRead10NoCache = "";
+    let gameState = "";
+    let gameId = "";
 
     const gameCurrentContractSrc = "/contracts/contract-work.js";
     const gameCurrencyInitState = {
@@ -52,14 +56,12 @@ describe.skip('Testing Join Game Process', () => {
 
     const playerRegContractSrc = "/contracts/contract-player-reg.js";
     
-    
-    // const playerContractSrc= "/contracts/builds/contract-player.js";
-    // const teamContractSrc= "/contracts/builds/contract-team.js";
+    const playerContractSrc= "/contracts/builds/contract-player.js";
+    const teamContractSrc= "/contracts/builds/contract-team.js";
+    const gameContractSrc= "/contracts/builds/contract-game.js";
 
-    const playerContractSrc= "/contracts/builds/contract-player-wo-reject.js";
-    const teamContractSrc= "/contracts/builds/contract-team-wo-reject.js";
-
-    const playerData = fs.readFileSync(path.join(__dirname, "/files/playerReg-test.json"), "utf8");
+    let playerFileName = env === "DEV" ? "/files/playerReg-dev.json" : "/files/playerReg-test.json";;
+    const playerData = fs.readFileSync(path.join(__dirname, playerFileName), "utf8");
     const playerNames = JSON.parse(playerData);
 
     const updateContractFile = (regId, contractType, placeholderName) => {
@@ -154,12 +156,20 @@ describe.skip('Testing Join Game Process', () => {
     afterAll(async () => {
         // await arlocal.stop();
 
+        let playerState = await warpRead(purchasePlayerId, env, cache);
+
         console.log(contracts);
         console.log(`Player ID: ${purchasePlayerId}`);
-        console.log(`Team ID 1: ${teamId1}`);
-        console.log(`Team ID 2: ${teamId2}`);
-        console.log(`Team Contract 1: ${contractRead1}`);
-        console.log(`Team Contract 2: ${contractRead2}`);
+        console.log(`Team IDs: ${teams}`);
+        console.log(`Team Contract 1 with Cache: ${contractRead1}`);
+        console.log(`Team Contract 10 with Cache: ${contractRead10}`);
+        console.log(`Player Contract: ${JSON.stringify(playerState)}`);
+        console.log(`Game Contract: ${gameState}`);
+
+        if (env !== "DEV") {
+            console.log(`Team Contract 1: ${contractRead1NoCache}`);
+            console.log(`Team Contract 10: ${contractRead10NoCache}`);
+        }
       });
 
     it('Should deploy Player Registry Contract', async () => {
@@ -168,16 +178,22 @@ describe.skip('Testing Join Game Process', () => {
             register: [], 
             season: "2022"
         };
+        
         contracts.playerRegistryId = await warpCreateNewContract(contractSource, initState, wallet, env);
-
-        expect(contracts.playerRegistryId).not.toBe('');
+        const result = await warpRead(contracts.playerRegistryId, env);
+        
+        // expect(contracts.playerRegistryId).not.toBe('');
+        expect(result.cachedValue.state).toEqual(initState);
     });
 
     it('Should deploy Game Currency', async () => {
         const contractSource = fs.readFileSync(path.join(__dirname, gameCurrentContractSrc), "utf8");
         contracts.gameCurrencyId = await warpCreateNewContract(contractSource, gameCurrencyInitState, wallet, env);
 
-        expect(contracts.gameCurrencyId).not.toBe('');
+        const result = await warpRead(contracts.gameCurrencyId, env);
+        expect(result.cachedValue.state).toEqual(gameCurrencyInitState);
+
+        // expect(contracts.gameCurrencyId).not.toBe('');
     });
 
     it('Should deploy Player, Team, and Game Contract Sources', async () => {
@@ -209,6 +225,9 @@ describe.skip('Testing Join Game Process', () => {
 
         contractSource = fs.readFileSync(path.join(__dirname, teamContractSrc), "utf8");
         contracts.teamSourceId = await warpCreateSource(contractSource, wallet);
+
+        contractSource = fs.readFileSync(path.join(__dirname, gameContractSrc), "utf8");
+        contracts.gameSourceId = await warpCreateSource(contractSource, wallet);
 
         expect(contracts.playerSourceId).not.toBe('');
         expect(contracts.teamSourceId).not.toBe('');
@@ -255,6 +274,7 @@ describe.skip('Testing Join Game Process', () => {
             let playerId = "";
             try {
                 playerId = await warpCreateContractFromTx(contracts.playerSourceId, playerInitState, wallet, env);
+                console.log(`Player created ${playerId}`);
             } catch(e) {
                 console.log(`ERROR CREATING PLAYER: ${e}`)
                 continue;
@@ -286,44 +306,102 @@ describe.skip('Testing Join Game Process', () => {
             count++;
         }
 
-        expect(count).toBe(50);
+        if (env === "DEV") {
+            expect(count).toBe(50);
+        } else {
+            expect(count).toBe(1);
+        }
     });
 
-    it('Shouse create 2 Teams', async () => {
-        const teamInitState = fs.readFileSync(path.join(__dirname, "/files/team.json"), "utf8");
-        const team1 = JSON.parse(teamInitState);
-        team1.name = "Team1";
-        team1.ticker = "TEAM1";
-
-        const team2 = JSON.parse(teamInitState);
-        team2.name = "Team2";
-        team2.ticker = "TEAM2"
-
-        teamId1 = await warpCreateContractFromTx(contracts.teamSourceId, team1, wallet, env);
-        teamId2 = await warpCreateContractFromTx(contracts.teamSourceId, team2, wallet, env);
-
-        expect(teamId1).not.toBe('');
-        expect(teamId2).not.toBe('');
+    it('Create 10 Teams', async () => {
+        for (let i = 1; i <= 10; i++) {
+            const teamInitState = fs.readFileSync(path.join(__dirname, "/files/team.json"), "utf8");
+            const team = JSON.parse(teamInitState);
+            team.name = `Team${i}`;
+            team.ticker = team.name.toUpperCase();
+            const teamId = await warpCreateContractFromTx(contracts.teamSourceId, team, wallet, env);
+            const teamState = await warpRead(teamId, env, cache);
+            teams.push(teamId);
+            expect(teamState.cachedValue.state).toEqual(team);
+        }
     });
 
-    it('Should purchase Player for Team 1 and Team 2', async () => {
-        await buyPlayer(teamId1);
-        await buyPlayer(teamId2);
+    // it('Purchase Player for Team 1', async () => {
+    //     await buyPlayer(teamId1);
+    //     const result1 = await warpRead(teamId1, env);
+    //     contractRead1 = JSON.stringify(result1);
+    //     expect (result1.cachedValue.errorMessages).toEqual({});
+    //     expect (result1.cachedValue.state).not.toHaveProperty('reject', true);
 
-        const result1 = await warpRead(teamId1, env);
-        const result2 = await warpRead(teamId2, env);
+    //     if (env !== "DEV") {
+    //         const result11 = await warpRead(teamId1, env, false);
+    //         contractRead1NoCache = JSON.stringify(result11);
+    //         expect (result11.cachedValue.errorMessages).toEqual({});
+    //     }
+    // });
 
-        contractRead1 = JSON.stringify(result1);
-        contractRead2 = JSON.stringify(result2);
+    // it('Purchase Player for Team 2', async () => {
+    //     await buyPlayer(teamId2);
+    //     const result2 = await warpRead(teamId2, env);
+    //     contractRead2 = JSON.stringify(result2);
+    //     expect (result2.cachedValue.errorMessages).toEqual({});
+    //     expect (result2.cachedValue.state).not.toHaveProperty('reject', true);
 
-        expect (result1.cachedValue.errorMessages).toEqual({});
-        expect (result2.cachedValue.errorMessages).toEqual({});
-        // expect(contractRead1).not.toBe('');
-        // expect(contractRead2).not.toBe('');
+    //     if (env !== "DEV") {
+    //         const result22 = await warpRead(teamId2, env, false);
+    //         contractRead2NoCache = JSON.stringify(result22);
+    //         expect (result22.cachedValue.errorMessages).toEqual({});
+    //     }
+    // });
+
+    it('Purchase Player for all 10 Teams', async () => {
+        for (let i = 1; i <= 10; i++) {
+            console.log(`Purchasing for Team ${i}`);
+            await buyPlayer(teams[i-1]);
+            const result = await warpRead(teams[i-1], env);
+            const contractRead = JSON.stringify(result);
+            if (i === 1) {
+                contractRead1 = contractRead;
+            } else if (i === 10) {
+                contractRead10 = contractRead;
+            }
+            expect (result.cachedValue.errorMessages).toEqual({});
+            expect (result.cachedValue.state).not.toHaveProperty('reject', true);
+    
+            if (env !== "DEV") {
+                const result = await warpRead(teamId1, env, false);
+                const contractReadNoCache = JSON.stringify(result);
+                if (i === 1) {
+                    contractRead1NoCache = contractReadNoCache;
+                } else if (i === 10) {
+                    contractRead10NoCache = contractReadNoCache;
+                }
+                expect (result.cachedValue.errorMessages).toEqual({});
+            }
+        }
     });
 
     it('Should create a Game', async () => {
+        const gameInitState = fs.readFileSync(path.join(__dirname, "/files/game.json"), "utf8");
+        const game = JSON.parse(gameInitState);
+        gameId = await warpCreateContractFromTx(contracts.gameSourceId, game, wallet, env);
+        const result = await warpRead(gameId, env, cache);
+        gameState = JSON.stringify(result);
+        expect(result.cachedValue.state).toEqual(game);
+    });
 
+    it('All 10 Teams should be able to join the Game', async () => {
+        for (let i = 1; i <= 10; i++) {
+            const input = {
+                function: "propose",
+                type: "joinGame",
+                target: gameId
+            };
+            const tx = await warpWrite(teams[i-1], input, wallet, env);
+        }
+        const result = await warpRead(gameId, env, cache);
+        gameState = JSON.stringify(result);
+        expect (result.cachedValue.errorMessages).toEqual({});
     });
 });
 

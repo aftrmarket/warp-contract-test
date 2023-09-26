@@ -5,5 +5,5 @@ export default {
     transform: {
       '^.+\\.js$': 'babel-jest',
     },
-    testPathIgnorePatterns: ['/node_modules/', 'join.test.js'],
+    testPathIgnorePatterns: ['/node_modules/', 'joinGame.test.js'],
 };

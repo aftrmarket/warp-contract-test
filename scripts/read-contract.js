@@ -4,7 +4,7 @@ import { DeployPlugin } from "warp-contracts-plugin-deploy";
 
 let arweave = {};
 
-const ENV = "DEV";
+const ENV = "TEST";
 
 if (ENV === "DEV") {
     arweave = Arweave.init({
@@ -40,7 +40,8 @@ function warpInit(env) {
     if (env === "DEV") {
         warp = WarpFactory.forLocal().use(new DeployPlugin());
     } else if (env === "TEST") {
-        warp = WarpFactory.forTestnet().use(new DeployPlugin());
+        // warp = WarpFactory.forTestnet().use(new DeployPlugin());
+        warp = WarpFactory.forTestnet({ ...defaultCacheOptions, inMemory: true });
     } else if (env === "PROD") {
         /*** 
          * If you run using inMemory: true first, then everything appears to be fine.
@@ -56,7 +57,7 @@ function warpInit(env) {
 
 
 /*** BEGIN SCRIPT */
-const contractId = "kcoNv4pEnvA61njYjFriLcluTG7zREQLOjyudS1bmlw";  
+const contractId = "np6EYXhxCpAeXEwJpYRlkQhVc3EAXT2qG-etal1-Sns";  
 const warp = warpInit(ENV);
 
 const result = await readContract(contractId);

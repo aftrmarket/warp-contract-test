@@ -1,0 +1,40 @@
+{
+    "desc": "",
+    "name": "Free Game Test",
+    "pool": 0,
+    "owner": "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU",
+    "claims": [],
+    "ticker": "FREE-GAME-TEST",
+    "history": [],
+    "invites": [],
+    "balances": { "bAJYgxGXt9KE4g8H7l7u80iFaBIgzpUQNUgycJby0lU": 1 },
+    "deposits": [],
+    "gameType": "free",
+    "claimable": [],
+    "gameLength": {
+      "end": 4,
+      "start": 4,
+      "endDate": "09/27/2022",
+      "startDate": "09/22/2022"
+    },
+    "gameStatus": "open",
+    "participants": [],
+    "gameParameters": {
+      "winners": {},
+      "entryFee": 0,
+      "starters": {
+        "d": 1,
+        "k": 1,
+        "qb": 1,
+        "rb": 2,
+        "wr": 3
+      },
+      "beneficiaryId": "",
+      "orgsPermitted": ["BC", "CLEM", "DUKE", "FSU", "GT", "LOU", "MIAMI", "NCST", "UNC", "PITT", "SYR", "UVA", "VT", "WAKE"]
+    },
+    "maxParticipants": 0,
+    "minParticipants": 2,
+    "teamPoolRewards": {},
+    "gameErrorMessages": [],
+    "gameStatusMessage": ""
+  }
