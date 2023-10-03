@@ -41,7 +41,8 @@ async function warpRead(contractId, env = "DEV", cache = CACHE) {
         .setEvaluationOptions({
             allowBigInt: true,
             internalWrites: true,
-            unsafeClient: 'skip'
+            unsafeClient: 'skip',
+            remoteStateSyncSource: "https://dre-aftr.warp.cc"
         });
     const result = await contract.readState();
     if (env !== "DEV") {
@@ -81,7 +82,10 @@ async function warpCreateContractFromTx(sourceId, initState, wallet, env = "DEV"
 async function warpWrite(contractId, input, wallet, env = "DEV") {
     const warp = warpInit(env);
     const contract = warp.contract(contractId)
-        .setEvaluationOptions({ internalWrites: true })
+        .setEvaluationOptions({
+            internalWrites: true,
+            remoteStateSyncSource: "https://dre-aftr.warp.cc"
+        })
         .connect(wallet);
 
     const result = await contract.writeInteraction(input);

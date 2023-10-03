@@ -33,7 +33,7 @@
     "esbuild": "^0.17.19",
     "esm": "^3.2.25",
     "pg": "^8.11.3",
-    "warp-contracts": "^1.4.19-beta.0",
+    "warp-contracts": "^1.4.19",
     "warp-contracts-plugin-deploy": "^1.0.9"
   },
   "devDependencies": {
