@@ -14,6 +14,7 @@
     "test-purchase3": "node ./scripts/test-purchase3.js",
     "test-local": "node ./scripts/test-local.js",
     "test-source": "node ./scripts/test-createSource.js",
+    "lorimer": "node ./scripts/lorimer-tx.js",
     "jest": "jest"
   },
   "repository": {
